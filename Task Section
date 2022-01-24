@@ -14,3 +14,19 @@ index
 constant
 identifier
 operator
+
+=====================
+Jan 24
+=====================
+
+write pgms with variable creation rules, Read in detail about variable creation rules and PEP standard
+compiler vs interpreter   ? use ? python ?
+https://realpython.com/python-keywords/ (20 keywords)
+Data types in detail:
+
+#int
+#float
+#boolean
+#char , str
+#complex
+
