@@ -50,3 +50,13 @@ Jan 31
 #float to int/bool/str
 #str to int/float/bool
 #bool to int/float/str
+
+Data type conversion (int to float,bool,string)
+
+For below programs collect input from user, pi is constant value 3.14 (print output in formatted way)
+
+write a program to calculate perimeter of the circle with radius 10.2
+write a program to calculate area of circle with radius (float) (collect using input function)
+write a program to calculate perimeter of the cricle with radius (float) (collect it through input function)
+Collect radius and height from user,
+calculate Area of cone (area of cone = 0.33 * pi * r * r * h) (int)
