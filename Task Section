@@ -41,3 +41,12 @@ jan 25
 #ternary operator
 #membership operator
 #bitwise operator
+
+============================
+Jan 31
+============================
+
+#int to float/bool/str
+#float to int/bool/str
+#str to int/float/bool
+#bool to int/float/str
