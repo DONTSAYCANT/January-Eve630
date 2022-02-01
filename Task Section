@@ -70,5 +70,23 @@ Task2:
       collect a string from user
       identify the middle character of the string 
 
+Task3:
+var = "python_interpreter"
+
+print(var[1:3])
+print(var[0:5])
+print(var[-5:-2])
+print(var[:3])
+print(var[3:])
+print(var[:])
+print(val[3:10])
+print(val[2:5])
+print(val[0:10])
+print(val[5:-5])
+print(val[2:8])
+print(val[:8])
+print(val[5:])
+print(val[8:12])
+print(val[12:5])
 
 
