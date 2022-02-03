@@ -90,3 +90,42 @@ print(val[8:12])
 print(val[12:5])
 
 
+=====================
+Feb 3:
+======================
+
+String: "information_Technology"
+
+
+print(val[3:10])
+print(val[2:5])
+print(val[0:10])
+print(val[5:-5])
+print(val[2:8])
+print(val[:8])
+print(val[5:])
+print(val[8:12])
+print(val[:])
+print(val[12:5])
+
+print(val[3:10:1])
+print(val[3:10:2])
+print(val[3:10:3])
+print(val[5:-5:1])
+print(val[5:-5:2])
+print(val[5:-5:5])
+print(val[:8:4])
+print(val[5::3])
+print(val[::2])
+print(val[12:5:3])
+
+print(a[2:-2:2])
+print(a[2:-2:-2])
+print(a[-2:2:2])
+print(a[-2:2:-2])
+print(a[3:-3:3])
+print(a[3:-3:-3])
+print(a[-3:3:3])
+print(a[-3:3:-3])
+
+
