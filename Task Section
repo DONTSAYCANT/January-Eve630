@@ -618,6 +618,27 @@ print(list(range(10,100,5)))
 print(list(range(10,0,-2)))
 
 
+====================
+feb 18
+===================
+
+https://www.w3schools.com/python/python_ref_functions.asp (any 20 functions)
+
+#User Def functions (4)
+Write function to concatenate three strings
+Write a function multiply three different integers and return a int
+Write a function to return middle char of the string
+write a function to return whether middle character is vowel or not 
+
+Advance (7) (with functions)
+
+1. whether the string is palindrome or not
+2. whether the number is armstrong or not
+3. whether the number is prime or not
+4. Find factorial of a number using function
+5. Find factorial of a number using recursive function
+6. Find factorial of a number without using function
+7. Fibonacci series
 
 
 
