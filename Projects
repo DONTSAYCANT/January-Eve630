@@ -1,0 +1,264 @@
+========================================================================================================
+Miniproject: (3 hours) 
+
+rock paper scissor
+
+1 player: user  2nd player: system
+
+rock + rock ==> Tie
+paper + paper ==> Tie
+scissor + scissor ==> Tie
+
+rock + scissor ==> rock
+paper + scissor ==> scissor 
+rock + paper  ===> paper
+
+How to collect user input ==> input
+
+How to collect system input ==> random
+
+import random
+
+Li1 = ["rock","paper","scissor"]
+
+print(random.choice(Li1))
+print(random.choice(Li1))
+print(random.choice(Li1))
+print(random.choice(Li1))
+print(random.choice(Li1))
+
+Number of games you want to play ? collect one integer
+
+Who wins?
+
+Number of games you want to play ?  3
+
+Game 1:
+Give your input ["rock","paper","scissor"] : rock
+System input: random 
+
+
+Game 2:
+
+Give your input ["rock","paper","scissor"] : rock
+System input: random 
+
+Game3
+
+Give your input ["rock","paper","scissor"] : rock
+System input: random 
+
+Total of number games: 3
+System points ==> 0
+User point ==> 2
+Tie ===> 1
+
+USER wins the game !!! Congrats !!!!
+
+
+==============================================================================================================
+
+Project1: Datastructure calculator (List/tuple/set/dictionary/loops)
+
+==========================================
+
+Welcome to Data structure calculator
+
+Please select any one Data structure, 
+1. List (15 operations) ==> List.py
+2. Tuple (5 operatios)  ===> Tuple.py
+3. Set (15 operations) ===> Set.py
+4. Dictionary (10 operations) ==> Dict.py
+
+Main.py
+
+import List
+import Tuple
+import Set
+import Dict
+
+
+Do create Datastructure:
+
+List ==> selected
+1. create list 
+
+Options under List:
+
+1. append
+2. pop
+3. update / concatenation
+4. sum/min/max
+5. pop
+6. len 
+7. mean
+8. median
+9. find
+10. frequency
+11. .... 15 operations
+
+(15 operations)
+
+
+Set:
+
+Create a set
+
+Options:
+
+1. add
+2. update
+3. intersection
+
+1. Start with the project
+2. Modules
+3. Documentation
+4. Exception handling
+5. Github documentation
+
+==============================================================================================================
+
+Project2: Quiz competition generator (json/while/functions)
+
+=========================================================================================================
+
+Questions: Json file
+
+https://www.geeksforgeeks.org/python-json/
+https://www.geeksforgeeks.org/working-with-json-data-in-python/
+
+
+Quiz competition generator (json parsing) 
+    
+#w3 school python 
+
+https://www.geeksforgeeks.org/read-json-file-using-python/
+
+#data (question )  ==> json file
+
+{
+"Question 1":
+    "Question":"Which is immutable data structure",
+    "Option1": "List",
+    "Option2": "Tuple",
+    "Option3": "Dictionary",
+    "Correct answer": "Option 2"
+"Question 2":
+    "Question":"Which is mutable data structure",
+    "Option1": "Set",
+    "Option2": "List"
+    "Option3": "Dictionary",
+}
+
+#10, 25, 15
+#question answer explanation points
+#previous question
+
+#json
+#while if else
+ Quiz competition generator (json parsing) 
+    
+#w3 school python 
+
+#data (question )  ==> json file
+
+{
+"Question 1":
+    "Question":"Which is immutable data structure",
+    "Option1": "List",
+    "Option2": "Tuple",
+    "Option3": "Dictionary",
+    "Correct answer": "Option 2"
+"Question 2":
+    "Question":"Which is mutable data structure",
+    "Option1": "Set",
+    "Option2": "List"
+    "Option3": "Dictionary",
+}
+
+#10, 25, 15
+#question answer explanation points
+#previous question
+
+
+total_dict = {"Question 1":{"Question":"Which is immutable data structure","Option1": "List","Option2": "Tuple","Option3": "Dictionary","Correct answer": "Tuple"},"Question 2":{"Question":"Which is mutable data structure","Option1": "Set","Option2": "List","Option3": "Dictionary"}}
+
+#print(total_dict)
+
+print("welcome quiz")
+
+print("1.  ",total_dict["Question 1"]["Question"])
+print("Options1 : ",total_dict["Question 1"]["Option1"])
+print("Options2 : ",total_dict["Question 1"]["Option2"])
+print("Options3 : ",total_dict["Question 1"]["Option3"])
+
+answer = input("please enter anyone option: Options1/Options2/Options3: ")
+
+
+if answer == total_dict["Question 1"]["Correct answer"]:
+    print("Answer is correct for Question")
+else:
+    print("wrong answer")
+    
+    
+send scores in mail and whatsapp/mobile number
+
+https://realpython.com/python-send-email/
+https://www.tutorialspoint.com/python/python_sending_email.htm
+
+===========================================================================================
+Project3: Resume parser and downloader (regex file handling)
+
+==========================================================================================
+
+Input: Collect one Resume from user
+
+Parse some details
+
+
+1. Introduction section
+  Name
+  email id
+  mobile number
+  linked id
+  git hub id
+  two lines
+  
+  
+2. Education
+  BE 
+  
+3. Skill sets
+  
+
+4. Technical projects
+
+5. Certification
+
+
+
+i ) <get it from user using input>
+ii) get a json file from user
+
+Json file ===>
+
+Send details through mail / message.
+
+==========================================================
+project4: wikipedia parser
+==================================================
+
+Libraries: web scrapping ()requests, urllib, beautiful soup, regex
+
+https://www.geeksforgeeks.org/how-to-extract-wikipedia-data-in-python/
+https://www.thepythoncode.com/article/access-wikipedia-python
+https://www.geeksforgeeks.org/web-scraping-from-wikipedia-using-python-a-complete-guide/
+
+Input: wiki page
+Output: Extract important info from wiki page and send it as mail
+
+================================
+
+project5: Automatic Wish sender
+
+======================================
