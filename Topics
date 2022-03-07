@@ -30,24 +30,30 @@ File handling (completed)
 itertools module (completed)
 OS and sys module (completed)
 Datetime module (completed)
-Regular expression 
+Regular expression (completed)
 
 Project2:
-Test2   (eligibility: 330 point hackerrank python (Or Hackerrank 200, GeeksforGeeks: 80 pgms), 300 points in hackerrank regex, miniproject/project1 should be completed project2 50%,)
+Test2   
+
+eligibility: 330 point hackerrank python 
+GeeksforGeeks: 100 pgms
+300 points in hackerrank regex
+miniproject/project1/project2 should be completed
 
 Advanced level (15-days)
 
-OOPS  (On going)
+Multi threading
+Decorators / generator / iterators 
+Database connectivity
+Networking intro/basics
+Django intro/basics
+project3/project4/project5 introduction
+OOPS
 Inheritance
 Abstract class
 Encapsulation
-polymorphism
-Multi threading
-Database connectivity
-Networking
-Django
-Decorators / generator / iterators 
+polymorphism etc ...
 
-Project3
+
 Test3
-Resume review / linked review
+Resume review / linkined review
